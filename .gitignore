@@ -1,10 +1,36 @@
-HELP.md
+# --- JAVA & MAVEN ---
 target/
+*.jar
+*.war
+*.zip
+*.tar.gz
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# --- INTELLIJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+# Ignora arquivos de prateleira e workspace do usuário
+.idea/workspace.xml
+.idea/shelf/
+.idea/libraries/
+
+# --- SISTEMA OPERACIONAL ---
+# Arquivos do Windows
+Thumbs.db
+desktop.ini
+# Arquivos do Mac
+.DS_Store
+
+# --- HELP & LOGS ---
+HELP.md
+*.log
+
+# --- STS / ECLIPSE ---
 .apt_generated
 .classpath
 .factorypath
@@ -13,13 +39,10 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# --- VS CODE ---
+.vscode/
 
-### NetBeans ###
+# --- NETBEANS ---
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -28,6 +51,3 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-
-### VS Code ###
-.vscode/
